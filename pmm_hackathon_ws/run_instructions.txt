@@ -1,0 +1,26 @@
+startup procedures (Please update this file when you have a new routine)
+
+start the main node:
+
+roslaunch tiago_pmm.launch world:=hackathon_world_jd_full
+
+Start the pick demo node:
+
+roslaunch tiago_pick_demo pick_demo.launch
+
+start the pick client gui
+
+rosservice call /pick_gui
+
+To rebuild the workspace:
+
+catkin build -DCATKIN_ENABLE_TESTING=0
+
+
+
+
+
+
+Pose in front of the shelf:
+[x, y, z, qx, qy, qz, qw]
+[-1.08, 0.4, 0.0, 0.0, 0.0, -1.0, 0.0]

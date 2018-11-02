@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!-- Pick & place server -->
+  <node name="roam_around" pkg="tiago_2dnav" type="roam_around.py" output="screen">
+      <param name="roam_duration"  value="3" />
+  </node>
+
+</launch>
